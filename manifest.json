@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Cat Signal",
+    "description": "Never let the internet lose. Ever.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": ["catsignal.js"]
+    },
+
+    "permissions": [
+        "notifications",
+        "http://mothership.fightforthefuture.org/",
+        "http://www.fightforthefuture.org/"
+    ],
+
+    "browser_action": {
+        "default_icon": "catface.png"
+    }
+}
