@@ -49,8 +49,8 @@ function onResponse() {
 
     notification = webkitNotifications.createNotification(
         'catface.png',  // icon url - can be relative
-        campaign.name,  // notification title
-        description  // notification body text
+        'Cat Signal:',  // notification title
+        campaign.name  // notification title
     );
 
     notification.addEventListener('click', function() {
